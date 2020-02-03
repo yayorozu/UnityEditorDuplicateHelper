@@ -28,6 +28,8 @@ namespace UniLib
 			if (gameObject == null)
 				return;
 
+			var name = gameObject.name; 
+
 			var scale = gameObject.transform.localScale;
 			EditorApplication.delayCall += () =>
 			{
