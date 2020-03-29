@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEditor;
 
-namespace UniLib
+namespace Yorozu
 {
 	public class EditorDuplicateHelper
 	{
